@@ -1,0 +1,63 @@
+
+#yt-container{
+  height: 350px;
+  background-color: #eee;
+  padding: 2%;
+}
+
+#yt-toolbar .progressBarDiv input{
+  width: 100%;
+}
+
+#yt-toolbar .playItems{
+  padding: 5px;
+  text-align: center;
+  background-color: #ccc;
+}
+#yt-toolbar .playItems .fa{
+  margin: 0 7px;
+  background: none;
+  border: none;
+  cursor: pointer;
+  color: #000;
+  border: 1px solid transparent;
+}
+#yt-toolbar .playItems .fa:hover{
+  border: 1px solid #000;
+}
+#yt-toolbar .switchContainer{
+  width: 100px;
+  margin-top: -1px;
+  float: right;
+  text-align: left;
+  user-select: none;
+}
+#yt-toolbar .switchContainer label{
+  display: inline-block;
+  font-size: 12px;
+}
+#yt-toolbar .switchContainer .switch{
+  height: 12px;
+  width: 30px;
+  margin-top: -1px;
+  display: inline-block;
+  margin: 0 8px;
+  border-radius: 6px;
+  background-color: #fff;
+  vertical-align: middle;
+  cursor: pointer;
+}
+#yt-toolbar .switchContainer .switch span{
+  height: 12px;
+  width: 18px;
+  border-radius: 6px;
+  background-color: #666;
+  float: left;
+}
+#yt-toolbar .switchContainer .switch.active span{
+  float: right;
+  color: #000;
+}
+
+
+

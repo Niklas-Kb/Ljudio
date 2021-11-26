@@ -1,0 +1,11 @@
+
+#songList li{
+  padding: 0.2em 0;
+  cursor: pointer;
+ border: 1px solid transparent;
+}
+
+#songList li:hover{
+ border: 1px solid #444;
+}
+
